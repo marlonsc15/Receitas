@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.116); 
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+    background: goldenrod;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: goldenrod;
+    /* color of the scroll thumb on hover */
+}
+
+main {
+    background-color: rgba(0, 0, 0, 0.116); 
+    overflow-y: auto;
+    padding-top: 2em;
+    height: calc(100vh - 100px);
+
+}
+
+header {
+    background-color: black;
+    height: 60px;
+    height: 4em;
+}
+
+.navbar {
+    font-weight: 700;
+    font-size: larger;
+    background-color: black;
+    z-index: 1;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-collapse a:hover {
+    color: goldenrod;
+}
+
+.navbar-collapse a.ativo {
+    color: goldenrod;
+
+}
+
+.navbar-toggler-icon {
+ background-color: goldenrod;
+
+ border-radius: 5px ;
+ 
+}
+
+main>div>h1 {
+    font-weight: 700;
+    display: flex;
+    font-size: 3em;
+    margin: auto;
+    justify-content: center;
+    padding: 2em;
+}
+
+main>div>p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 2em;
+}
+
+form {
+    display: flex;
+}
+
+form.submit {
+    align-items: end;
+    justify-content: end;
+}
+
+
+footer {
+    background-color: black;
+    display: flex;
+    position: absolute;
+    font-weight: bolder;
+    justify-content: center;
+    bottom: 0px;
+    height: 25px;
+    width: 100%;
+    color: goldenrod;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    background-color: black;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.btn:hover {
+    background-color: goldenrod;
+}
+
+.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-number {
+    -moz-appearance: textfield;
+}
